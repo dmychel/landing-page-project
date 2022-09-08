@@ -6,8 +6,8 @@
 body {
     border: 3px solid black;
     height: 100vh;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
     background: linear-gradient(
         to bottom,
         #1F2937 0%,
@@ -32,7 +32,7 @@ body {
 }
 h3 {
     border: 3px solid purple;
-    color: white;
+    color: #F9FAF8;
     font-size: 24px;
 }
 
@@ -57,6 +57,7 @@ a:link {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    color: #F9FAF8
 }
 
 .left {
@@ -92,7 +93,7 @@ img {
 
     .middle {
         border: 3px solid orange;
-        padding-top: 40px;
+        padding-top: 75px;
     }
 
     h1 {
@@ -117,9 +118,53 @@ img {
     }
 
     img:not(.top-photo) {
-        height: 150px;
-        width: 100px;
+        height: auto;
+        width: 80px;
         border-radius: 15px;
         border: 2px solid #1F2937
     }
 
+    /** BOTTOM PORTION */
+
+    .bottom {
+        border: 3px solid orange;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 75px;
+    }
+
+    .quote{
+        font-style: italic;
+        font-size: 36px;
+    }
+
+    .author {
+        font-size: 18px;
+        margin-left: 700px;
+    }
+
+
+/* CALL TO ACTION BUTTON */
+
+.action-container {
+    margin-top: 60px;
+}
+
+.call-to-action {
+    border: 3px solid orange;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header-subtext{
+    color: #F9FAF8
+}
+
+.action {
+    border: 2px solid white;
+}
